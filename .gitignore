@@ -1,34 +1,77 @@
-# Gradle files
-.gradle/
-build/
+# Operating system
+.DS_Store
+Thumbs.db
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# IDEs and editors
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
 
-# Keystore files
-*.jks
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+.pnp/*
+.next/
+build/
+dist/
+coverage/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.eggs/
+.python-version
+venv/
+.env
+.venv/
+ENV/
+env/
+
+# Android / Java / Gradle
+.gradle/
+/local.properties
+/.idea/
+/capture/
+/captures/
+*.apk
+*.ap_
+*.aab
 *.keystore
+app/build/
+**/build/
+.externalNativeBuild
+.cxx
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Misc
+logs/
+*.log
+.idea/
 
-# Android Profiling
-*.hprof
+# Docker
+docker-compose.override.yml
+
+# JetBrains
+out/
+
+# macOS
+*.swp
+*.swo
+
+# Generated files
+npm-debug.log*
+yarn-debug.log*
+
+# Secrets
+secrets/*.json
+
